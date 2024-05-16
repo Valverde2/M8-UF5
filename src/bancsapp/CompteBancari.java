@@ -4,11 +4,11 @@ public class CompteBancari {
 
     private String nom;
     private int numSecret;
-    private static float saldoInicial = (float) 0;
+    private static float saldoInicial = (float) 100;
     private float saldo;
 
-    public void saludo2() {
-        System.out.println("Benvingut al teu compte bancari. Esperem que tinguis un bon dia!");
+     public void saludo() {
+        System.out.println("Hola! Benvingut al teu compte bancari.");
     }
     public CompteBancari(String nom, int numSecret) {
         this.nom = nom;
