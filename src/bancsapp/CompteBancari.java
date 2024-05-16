@@ -7,6 +7,9 @@ public class CompteBancari {
     private static float saldoInicial = (float) 0;
     private float saldo;
 
+    public void saludo2() {
+        System.out.println("Benvingut al teu compte bancari. Esperem que tinguis un bon dia!");
+    }
     public CompteBancari(String nom, int numSecret) {
         this.nom = nom;
         this.numSecret = numSecret;
