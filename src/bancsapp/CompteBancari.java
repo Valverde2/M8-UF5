@@ -10,6 +10,7 @@ public class CompteBancari {
      public void saludo() {
         System.out.println("Hola! Benvingut al teu compte bancari.");
     }
+     
     public CompteBancari(String nom, int numSecret) {
         this.nom = nom;
         this.numSecret = numSecret;
